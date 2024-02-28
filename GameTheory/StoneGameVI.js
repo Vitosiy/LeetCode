@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/stone-game-vi/
+
 /**
  * @param {number[]} aliceValues
  * @param {number[]} bobValues
@@ -40,6 +42,6 @@ const stoneGameVI = function(aliceValues, bobValues) {
     return aliceScore === bobScore ? 0 : aliceScore > bobScore ? 1 : -1
 };
 
-console.log(stoneGameVI([1,3], [2,1]))
-console.log(stoneGameVI([1,2], [3,1]))
-console.log(stoneGameVI([2,4,3], [1,6,7]))
+console.log(stoneGameVI([1,3], [2,1]))  //1
+console.log(stoneGameVI([1,2], [3,1]))  //0
+console.log(stoneGameVI([2,4,3], [1,6,7]))  //-1
